@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.whole {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.navigation {
+    background-color: rgb(19, 18, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 80px 20px 0;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.Discover input[type="submit"],
+.Watch input[type="submit"] {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.Discover input[type="submit"]:hover,
+.Watch input[type="submit"]:hover {
+    color: black;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 0px;
+}
+
+div.left-side {
+    width: 190px;
+    float: left;
+    border: 2px solid grey;
+    
+}
+
+div.left-side h2 {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+div.left-side ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.left-side ul li {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+}
+
+div.left-side ul li a {
+    display: block;
+    width: 100%;
+    padding: 5px 0px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+    color: whitesmoke;
+    background-color: #3b3a39;
+}
+
+div.left-side ul li a:hover {
+    color: #10d13d;
+}
+
+div.contents {
+    width: 490px;
+    float: left;
+    margin: 10px;
+    font-family: 'Times New Roman';
+}
+
+
+
+div.contents p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+div.contents h2 {
+    font-family: 'Segoe UI';
+    color: whitesmoke;
+}
+
+div.right-side {
+    float: right;
+    min-height: 50px;
+    margin: 10px 0px 10px 10px;
+}
+
+div.right-side ul {
+    margin: 0;
+    padding: 20px;
+}
+
+div.right-side ul li {
+    list-style-type: none;
+}
+
+div.right-side ul li img {
+    padding: 10px;
+    width: 100%;
+}
+
+div.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+div.video iframe{
+    padding: 10px;
+    min-width:100vw;
+    min-height:100vh; 
+}
+
+
+div.footer {
+    text-align: center;
+    clear: both;
+    border-top: 2px dashed rgb(216, 199, 199);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: black;
+
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  .row h2{
+    color: whitesmoke;
+  }
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    color: whitesmoke;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  .card img{
+    
+    margin-right:15px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(19, 18, 18);
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #393737;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #352a2a;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+ .offer{
+    padding: 10px 10px 10px 10px ;
+    margin: 10px 10px 10px 10px;
+    color: whitesmoke;
+    text-align: justify;
+ }
